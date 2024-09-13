@@ -15,10 +15,15 @@ https://www.git-scm.com
 
 Configuring the project:
 
-git init = initialize the repository for your project
+git init = Initialize the repository for your project
 git status = this command shows what changes are made to the repository.
 git add <file_name> = it will add the files into the staging area.
 git commit –m <”Message”> = it performs the commit of files from the staging area.
 git log = It will show the recent commits performed.
 git checkout <branch_name> = This command  helps you to navigate between branches created by git branch.
 git branch <branch_name> =  It will create the new branch.
+git checkout –b <branch_name> = It will automatically create the new branch and will navigate to it.
+git merge <branch_name> = It will merge the content to the branch.
+git remote add origin <origin_link> = This command will create the origin for your commits.
+git branch -M master = this command will select the origin to get pushed into the master branch .
+git push -u origin master =  This command will push the code into github .
